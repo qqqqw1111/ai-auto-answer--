@@ -35,6 +35,17 @@ https://raw.githubusercontent.com/qqqqwlili/ai-auto-answer-/main/ai-auto-answer.
 | 模型名称 | `deepseek-flash` / `deepseek-v4-pro` / `gpt-4o-mini` |
 
 填完点「测试连接」→「保存配置」。
+脚本支持一切 **OpenAI 兼容格式** 的 API（`/v1/chat/completions`），常见示例：
+
+| 服务商           | API 地址                                                               | 模型名示例                 |
+| ------------- | -------------------------------------------------------------------- | --------------------- |
+| OpenAI        | `https://api.openai.com/v1/chat/completions`                         | `gpt-4o-mini`         |
+| DeepSeek      | `https://api.deepseek.com/v1/chat/completions`                       | `deepseek-chat`       |
+| 通义千问          | `https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions` | `qwen-plus`           |
+| 智谱            | `https://open.bigmodel.cn/api/paas/v4/chat/completions`              | `glm-4-flash`         |
+| Kimi          | `https://api.moonshot.cn/v1/chat/completions`                        | `moonshot-v1-8k`      |
+| Claude（经兼容代理） | 代理地址 + `/v1/chat/completions`                                        | `claude-3-5-sonnet-*` |
+
 
 ## 使用
 
